@@ -1,0 +1,247 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.universal-header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    z-index: 10;
+    width: 100%;
+    background: linear-gradient( 
+        90deg, rgb(207 207 207 / 90%), rgb(255 255 255 / 90%));
+    margin: 0px;
+    padding: 5px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1em;
+}
+.refered-page {
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    color: rgba(70, 70, 70, 70%);
+    transition: .25s;
+}
+.refered-page:hover {
+    font-size: 24px;
+}
+.header-body {
+    margin: 10px 0px 10px 20px;
+}
+.display-detail {
+    margin: auto;
+    padding: 0px 15px;
+}
+.title-tag {
+    color: rgba(70, 70, 70, 70%);
+    text-decoration: solid;
+    margin: 0px 15px;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.in-page-search {
+    width: 24%;
+    height: 25px;
+    margin: 13px 5px 5px 5px;
+    border: 0px;
+    border-radius: 40px;
+    font-size: 14px;
+    outline: none;
+    padding: 0px 31px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.myimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    margin: 60px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    height: 90.2vh;
+}
+.profile-block {
+    width: 726px;
+}
+.profile-photo {
+    width: 340px;
+    /* margin: 200px 30px 300px 30px; */
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    transition: border 1s;
+} 
+.profile-photo:hover {
+    animation: ease-in-out 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s unset normal forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-fill-mode: forwards; */
+}
+.display-name {
+    font-size: 5.2rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    /* margin: 310px 100px 15px 5px; */
+    transition: .5s;
+}
+.display-name:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+.name-discription {
+    margin: 0px 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.college-block {
+    display: flex;
+    flex-direction: column;
+}
+.college-logo {
+    width: 48px;
+    height: 58px;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.school-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0px;
+}
+.academic-tag {
+    font-size: 6rem;
+    font-weight: 900;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.08);
+}
+.education-tag {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-top: -125px;
+}
+.course {
+    font-weight: 540;
+    font-size: 18px;
+    margin: -25.5px 0px 0px 45px;
+}
+.course1 {
+    font-weight: 540;
+    font-size: 18px;
+    margin: -19.5px 0px 0px 55px;
+}
+.school-link {
+    margin: 0px;
+    padding: 0px;
+}
+.education-detail {
+    display: flex;
+    margin: 0px 95px 0px 0px;
+    padding: 15px;
+    flex-direction: row;
+    border-radius: 10px;
+    transition: .5s;
+}
+.education-detail:hover {
+    background-color: rgba(206, 206, 206, 0.1);
+}
+.flex-education-detail {
+    display: flex;
+    flex-direction: column;
+}
+.college {
+    font-size: 2.5rem;
+    font-weight: 750;
+    margin: 0px 0px 4px 30px;
+    color: rgba(0, 0, 0, 0.05);
+}
+.college1 {
+    font-size: 2.5rem;
+    font-weight: 750;
+    margin: -5px 0px 0px 40px;
+    color: rgba(0, 0, 0, 0.05);
+}
+.form {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.duration {
+    margin: -2.5px 0px 0px 36px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.last-block {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.academic-block {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+}
+.display-data {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+.table-display {
+    width: 350px;
+    background: linear-gradient(90deg, #0055ff33, #00000033);
+    margin: 90px 0px 5px 0px;
+    border-radius: 2.5pc;
+}
+.hello {
+    font-size: 2.1rem;
+}
+.about-block {
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+    width: 600px;
+}
+.about-para {
+    padding: 30px 30px 30px 0px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+.button-tab {
+    width: 175px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 56px;
+}
+.cisce {
+    color: black;
+    text-decoration: none;
+}
+.search {
+    background: 0px;
+    outline: none;
+    border-radius: 50%;
+}
+.inside-table {
+    margin: 25px;
+}
+.progress-bar {
+    /* width: 90vw; */
+    height: 15px;
+}
