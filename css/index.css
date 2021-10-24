@@ -245,3 +245,17 @@ a {
     width: 90vw;
     height: 15px;
 } */
+.progress {
+    width: 298px;
+    height: 18px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+}
+.pbar {
+    width: 40%;
+    height: 18px;
+    background-color: rgb(0, 89, 255);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
