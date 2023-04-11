@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: .5rem;
+    height: .5rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #33333380;
+}
+
+@import './imports';
+@import './var';
+@import './html';
+@import './nav';
+@import './profile-section';
+@import './about-section';
+@import './about-social-media';
+@import './tech-stack';
+@import './education';
+@import './project';
+@import './contact-block';
+@import './footer';
+@import './media';

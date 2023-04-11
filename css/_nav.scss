@@ -1,0 +1,52 @@
+
+// Nav Bar of Page's CSS is here
+
+.nav {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: .25em .40em;
+    margin-bottom: .1em !important;
+    font-size: 2.6rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    padding: .6rem 1rem;
+    cursor: default;
+    
+    .resume-link-hover {
+        display: none;
+    }
+    
+    img {
+        width: 24px;
+        margin-bottom: -3.9px;
+    }
+
+    &:hover,
+    &:focus {
+        .resume-link-hover {
+            display: inline;
+        }
+    }
+}
+
+.resume-link {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    transition: color 200ms;
+    margin-right: 1rem;
+    
+    &:hover,
+    &:focus {
+        color: black;
+    }
+}
+
